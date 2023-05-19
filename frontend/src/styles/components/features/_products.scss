@@ -1,0 +1,89 @@
+.product__card {
+  width: 18rem;
+  height: $image-height !important;
+  padding: 10px;
+  cursor: pointer;
+  &__image {
+    position: relative;
+    &, img {
+      height: $image-inherit !important;
+    }
+    .hover__effect {
+        &__up {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            button {
+                transition: .3s all ease-in-out;
+                opacity: 0;
+            }
+            img {
+                position: absolute;
+                right: 10px;
+                bottom: -15px;
+            }
+        }
+        &__bottom {
+            transition: .3s all ease-in-out;
+            opacity: 0;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            padding: 10px;
+            span {
+                display: block;
+                color: #fff;
+                letter-spacing: 0.5px;
+                font-size: 20px;
+                border-bottom: 2px solid #fff;
+            }
+        }
+    }
+    &:hover {
+        .hover__effect {
+            &__up {
+                button {
+                    opacity: 1;
+                }
+            }
+            &__bottom {
+                opacity: 1;
+            }
+        }
+    }
+  }
+  &__body {
+    margin: 8px 0px;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+  }
+  &__info {
+    font-size: 18px;
+  }
+  &__desc {
+    font-size: 13px;
+  }
+  &__more {
+    margin-top: 5px;
+    font-size: 13px;
+    &__status {
+      .online {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-color: #09c709;
+        border-radius: 50%;
+        margin-right: 2px;
+      }
+    }
+    &__compare {
+      form {
+        label {
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+}

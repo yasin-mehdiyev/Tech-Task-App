@@ -1,0 +1,48 @@
+.reviews {
+    margin: 25px 0px;
+    .review__list {
+        opacity: .8;
+        h4, span {
+            letter-spacing: 0.5px;
+        }
+        span {
+            display: inline-block;
+            color: rgb(135, 135, 135);
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        &__ratings {
+            svg {
+                color:rgba(5, 94, 64, 0.917);  
+                font-size: 22px;
+            }
+        }
+        &__comment {
+            margin: 20px 0px 10px;
+        }
+        &__more {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(1, 17, 11, 0.917);
+            color: rgba(2, 28, 19, 0.917);
+            font-size: 15px;
+        }
+        &__hr__line {
+            color: #3e3e3e;
+        }
+    }
+    .add__reviews {
+        margin: 60px 0px;
+        &_up {
+            h4, span {
+                letter-spacing: 0.5px;
+            }
+            span {
+                display: inline-block;
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

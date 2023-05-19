@@ -1,0 +1,26 @@
+{
+    "resources": {
+        "logoTitle": "Bits Orchestra",
+        "homePage": "Home Page",
+        "reviewPage": "Review Page",
+        "innovationLeader": "the innovation leader in luxury vinyl plank",
+        "getStarted": "let's get started",
+        "shopMeal": "Shop by Meal",
+        "productDetails": "Product Details",
+        "compare": "Compare",
+        "readMore": "Read More",
+        "email": "Email",
+        "phone": "Phone",
+        "notAvailablePhone": "Phone number is not available",
+        "readAllReviews": "Read All Reviews",
+        "hideReviews": "Hide Reviews",
+        "leaveReview": "Leave a Review",
+        "reviewFormTitle": "Your email address will not be published. Required fields are marked",
+        "comment": "Comment",
+        "name": "Name",
+        "phoneOptional": "Phone (optional)",
+        "saveAsContent": "Save my name, email and website in this browser for the next time I comment",
+        "postReview": "Post Review",
+        "errorPage": "Error, 404 Not Found Page. Please, try again later."
+    }
+}

@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Blended Sienna 1",
+      "photo": "",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": true
+    },
+    {
+      "id": "2",
+      "name": "Blended Sienna 2",
+      "photo": "meal_product.jpeg",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": false
+    },
+    {
+      "id": "3",
+      "name": "Blended Sienna 3",
+      "photo": "meal_product.jpeg",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": false
+    },
+    {
+      "id": "4",
+      "name": "Blended Sienna 4",
+      "photo": "meal_product.jpeg",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": false
+    },
+    {
+      "id": "5",
+      "name": "Blended Sienna 5",
+      "photo": "meal_product.jpeg",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": false
+    },
+    {
+      "id": "6",
+      "name": "Blended Sienna 6",
+      "photo": "meal_product.jpeg",
+      "amount": 23,
+      "desc": "COREtec Premium",
+      "isOnline": true,
+      "onlineMessage": "Available Now 2650 Sf",
+      "isCompared": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "8460047d-9167-424f-b5eb-0c3af04538a4",
+      "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Yasin",
+      "email": "yasinmm@code.edu.az",
+      "phone": "",
+      "date": "May 19,2023",
+      "rate": 3
+    },
+    {
+      "id": "72117a74-bda6-47e2-b284-40c9477e7d13",
+      "comment": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+      "name": "Yasinn",
+      "email": "test@gmail.com",
+      "phone": "",
+      "date": "May 19,2023",
+      "rate": 5
+    },
+    {
+      "id": "709d7898-9eef-4fb1-a9e1-402a6492d206",
+      "comment": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "phone": "3804555676",
+      "date": "May 19,2023",
+      "rate": 1
+    }
+  ]
+}
